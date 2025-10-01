@@ -1,0 +1,104 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #e0dede;
+  overflow: hidden;
+}
+.section{
+  margin-top: 3%;
+}
+.section .iphone{
+  border:1px solid rgb(0, 0, 0);
+  outline:3px solid #043458;
+  box-shadow: 9px 7px 0 #043458;
+}
+.section .head-part .iphone{
+     width: 300px;
+    height: 610px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 1px 12px;
+    position: relative;
+}
+.section .display .row a{
+  display: block;
+  height: 20px;
+  width: 10%;
+}
+.section .display .divider{
+      width:35%;
+      height: 4px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 5px;
+      position: absolute;
+      left: 50%;
+      bottom: 1%;
+      transform: translateX(-50%);
+}
+.section .iphone .topbar span{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 3px;
+}
+.section .iphone .icons{
+  display: inline-block;
+}
+.section .iphone .icons img{
+  height:15px;
+  margin-left:0.5vh;
+}
+.section .iphone .display{
+      font-size: 48px;
+      color: rgb(0, 0, 0);
+      text-align: right;
+       padding: 38px 1% 10%;
+      border-radius: 20px;   
+      margin: 1% 5px 19%;
+}
+.section .iphone .display .divider{
+    width: 30%;
+    height: 4px;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 29px;
+    margin-left: 39%;
+
+}
+.butn{
+    height: 62px;
+    width: 95%;
+    font-size: 28px;
+    font-weight: 500;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    text-decoration: none;
+    line-height: 62px;
+}
+.btn-number{
+  background-color:#e4e4e6;;
+  color:black;
+}
+.btn-number:hover{
+  background-color: #bcbcbc;
+}
+.btn-operator{
+  background-color:#fd9606;
+  color: white;
+  font-weight: bold;
+}
+.btn-operator:hover{
+  background-color: #ee9d07;
+}
+.btn-function{
+  background-color:#e4e4e6;
+  color: black;
+}
+.btn-function:hover{
+  background-color: #bcbcbc;
+}
+.zero-btn{
+  border-radius: 40px;
+  width: 100%;
+  display: block;
+}
